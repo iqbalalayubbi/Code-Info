@@ -1,0 +1,33 @@
+// membuat database
+create database "nama_database"
+
+// menghapus database 
+drop database "nama_database"
+
+//membuat table
+create table "nama_table"
+
+// pertama database harus di aktifkan terlebih dahulu
+use "nama_table"
+
+// mengisi tabele 
+create table "nama_table"
+("nama_column" "jenis" ,
+  "nama_column" "jenis"
+);
+
+// memasukkan data pada table 
+INSERT INTO "nama_table"
+(nama column) VALUES ("isi");
+
+// melihat isi pada table
+SELECT * FROM "nama_table";
+
+// update data dalam table
+UPDATE "nama_table" SET 
+"nama column" = "isi"
+WHERE "nama column" = "isi"
+
+// menghapus salah satu data pada table
+DELETE FROM "nama_table"
+WHERE "nama column" = "isi"
